@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/takePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="拍照"
+        android:background="@color/app_white"
+        android:textColor="@color/app_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/choosePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="从相册选择"
+        android:textColor="@color/app_color"
+        android:textSize="18sp"
+        android:background="@color/app_white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_del_select"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/app_white"
+        android:gravity="center"
+        android:text="删除此图片"
+        android:visibility="gone"
+        android:textColor="@color/app_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_img_zoom"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/app_white"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="图片预览"
+        android:textColor="@color/app_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="取消"
+        android:background="@color/app_white"
+        android:textColor="@color/app_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
