@@ -210,9 +210,9 @@ public class MainActivity extends Activity {
                         if (isAdd) {
                             bitmap_list.add(newBitMap);
                         } else {
-                            if (photosSize < bitmap_list.size()) {
+                            
                                 bitmap_list.set(whichPhoto, newBitMap);
-                            }
+                            
                         }
                         //刷新数据  关闭popupwidow
                         mMyAdapter.notifyDataSetChanged();
@@ -257,9 +257,9 @@ public class MainActivity extends Activity {
                     if (isAdd) {
                         bitmap_list.add(newBitMapPhoto);
                     } else {
-                        if (photosSize < bitmap_list.size()) {
+                       
                             bitmap_list.set(whichPhoto, newBitMapPhoto);
-                        }
+                       
                     }
                     //刷新数据  关闭popupwidow
                     mMyAdapter.notifyDataSetChanged();
